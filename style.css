@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Metal+Mania&family=Suez+One&display=swap');
+body {
+  text-align: center;
+  background-color: #ffc2fe;
+  background-size: auto;
+}
+
+main {
+  text-align: center;
+
+}
+main img {
+  border-color: #000;
+  border: 2px solid;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+
+main h1 {
+  color:#fafa00;
+  font-family: 'Suez One', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+main h2 {
+  color: #fab907;
+  font-family: 'Lobster', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#me {
+   color: #fa0707;
+  font-family: 'Metal Mania', sans-serif;
+  font-size: 50px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+#pl-ik {
+  text-align: left !important;
+
+}
+#a {
+  color: #f7f416;
+  font-family: cursive;
+  font-size: 25px !important;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+#ab-me {
+  background-color:#f7f674;
+  border: 1px solid #000;
+
+}
+#pl-ik {
+  background-color: #93f587;
+  border: 1px solid #000;
+}
+#pl-ik h3{
+  text-align: center;
+}
+.fa {
+  padding: 5px;
+ font-size: 30px !important;
+ width: 30px;
+ text-align: centre;
+ text-decoration: none;
+ border-radius: 20%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #f5336a;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#cer {
+  background-color: #83e6fc;
+  border: 1px solid #000;
+}
+#stu {
+  background-color: #f5a98c;
+  border: 1px solid #000;
+}
+#Ex {
+  background-color: #f7e7e1;
+  border: 1px solid #000;
+}
+#proj {
+  background-color: #f5737a;
+  border: 1px solid #000;
+}
+#com-me {
+  background-color:  #86a6f7;
+  border: 1px solid #000;
+}
+#cont-form {
+  background-color: #f5336a ;
+  border: 1px solid #000;
+  padding-bottom: 10px;
+}
+video {
+  border: 1px solid #000;
+}
+audio {
+  border: 1px solid #000;
+}
+#fun {
+  background-color: #eefa14;
+  border: 1px solid #000;
+  padding-top: 10px;
+}
