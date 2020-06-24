@@ -21,9 +21,10 @@ $(document).ready(function () {
 	function showNav() {
 		$(".navbar").removeClass("is-hidden").addClass("is-visible").addClass("scrolling");
 	}
-	  $(function(){
-   		 var navMain = $(".navbar-collapse"); 
-    		 navMain.on("click", "a:not([data-toggle])", null, function () {
-       		 navMain.collapse('hide');
-    	});
+  $(function(){
+    var navMain = $(".navbar-collapse"); 
+    navMain.on("click", "a:not([data-toggle])", null, function () {
+        navMain.collapse('hide');
+    });
+});
 });
