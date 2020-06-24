@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Suez+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Metal+Mania&family=Suez+One&display=swap');
-/* Reset CSS (DO NOT DELETE) */
 html {
   margin: 0px;
   padding: 0px;
@@ -166,13 +165,16 @@ main h2 {
 #cer {
   background-color: #83e6fc;
   border: 1px solid #000;
+  overflow: scroll;
+  overflow-x: hidden;
+  max-height: 300px;
 }
 #stu {
   background-color: #f5a98c;
   border: 1px solid #000;
 }
 #Ex {
-  background-color: #f7e7e1;
+  background-color: #f5336a;
   border: 1px solid #000;
   max-height: 200px;
   overflow: scroll;
@@ -189,11 +191,7 @@ main h2 {
   background-color:  #86a6f7;
   border: 1px solid #000;
 }
-#cont-form {
-  background-color: #f5336a ;
-  border: 1px solid #000;
-  padding-bottom: 10px;
-}
+
 video {
   border: 1px solid #000;
 }
@@ -244,7 +242,4 @@ nav {
   background-image: url("./back.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.content {
-
 }
