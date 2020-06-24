@@ -4,6 +4,7 @@ html {
   margin: 0px;
   padding: 0px;
   height: 100%;
+  scroll-behavior: smooth;
 }
 .header {
   background-color: #26d0c9;
@@ -242,4 +243,12 @@ nav {
   background-image: url("./back.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.is-hidden {
+  opacity: 0;
+  transition: transform 0.4s, opacity 0.2s;
+}
+.navbar-hide {
+  pointer-events: none;
+  opacity: 0;
 }
